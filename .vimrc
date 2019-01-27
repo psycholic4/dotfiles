@@ -1,0 +1,9 @@
+set autoindent
+set nu
+set ruler
+set history=1024
+set tabstop=4
+set backspace=eol,start,indent
+set expandtab
+set hls
+syntax on
