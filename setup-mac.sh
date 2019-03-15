@@ -3,6 +3,10 @@
 # install HomeBrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install java
+brew tap caskroom/versions
+brew cask install java8
+
 # install python
 brew install python
 
@@ -21,3 +25,14 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+# install CocoaPods
+sudo gem install cocoapods
+
+# install fastlane
+xcode-select --install
+sudo gem install fastlane -NV
+
+# install lokalise
+brew tap lokalise/brew
+brew install lokalise

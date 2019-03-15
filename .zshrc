@@ -97,3 +97,6 @@ source $ZSH/oh-my-zsh.sh
 
 prompt_context() {
 }
+
+alias gw="./gradlew"
+alias cs="gw checkstyle"
