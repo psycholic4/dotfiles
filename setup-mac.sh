@@ -7,10 +7,13 @@
 brew tap caskroom/versions
 brew cask install java8
 
-# install python
+# install python & pip
 brew install python
 
-# install pip
+# install ruby
+brew install ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+# add to zshrc
 
 # install zsh
 brew install zsh 
@@ -31,8 +34,15 @@ sudo gem install cocoapods
 
 # install fastlane
 xcode-select --install
-sudo gem install fastlane -NV
+brew cask install fastlane
 
 # install lokalise
 brew tap lokalise/brew
 brew install lokalise
+
+# install swiftlint
+brew install swiftlint
+
+# install jekyll
+gem install --user-install bundler jekyll
+
