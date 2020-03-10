@@ -36,6 +36,4 @@ sudo gem install cocoapods
 
 # Setup environemnt variables
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> $ZSHRC
-echo 'export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"' >> $ZSHRC
-echo 'export ANDROID_HOME="$ANDROID_SDK_ROOT"' >> $ZSHRC
 echo 'export JAVA_HOME="$(/usr/libexec/java_home -v1.8)"' >> $ZSHRC
