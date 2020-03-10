@@ -1,0 +1,15 @@
+tap "lokalise/brew"
+
+# Applications
+
+cask "google-drive-file-stream"
+cask "notion"
+cask "zeplin"
+
+# Development
+
+brew "lokalise"
+brew "git-lfs"
+brew "xcodegen"
+
+cask "fastlane"
